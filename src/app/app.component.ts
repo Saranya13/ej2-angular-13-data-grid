@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+
+import { Component, OnInit } from '@angular/core';
+import { data } from './datasource';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    template: `<ejs-grid [dataSource]='data'> </ejs-grid>`
 })
-export class AppComponent {
-  title = 'grid-sample';
+export class AppComponent implements OnInit {
+
+    public data!: object[];
+    title = 'angular'
+
+    ngOnInit(): void {
+        this.data = data;
+    }
 }
+
+
