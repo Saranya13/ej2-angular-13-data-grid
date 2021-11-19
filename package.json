@@ -1,5 +1,5 @@
 {
-  "name": "grid-sample",
+  "name": "scheduler",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -18,7 +18,11 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
+<<<<<<< HEAD
     "@syncfusion/ej2-angular-grids": "*",
+=======
+    "@syncfusion/ej2-angular-schedule": "*",
+>>>>>>> c7018dbf216840d76b6d00af873cb24843c68ef5
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

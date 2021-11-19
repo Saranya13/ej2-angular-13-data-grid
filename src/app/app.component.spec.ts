@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'grid-sample'`, () => {
+  it(`should have as title 'scheduler'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('grid-sample');
+    expect(app.title).toEqual('scheduler');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('grid-sample app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('scheduler app is running!');
   });
 });
